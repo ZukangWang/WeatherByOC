@@ -16,12 +16,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    //设置页面背景图片
+    UIImage *background=[UIImage imageNamed:@"background.jpg"];
+    self.view.backgroundColor=[UIColor colorWithPatternImage:background];
+    
+    //初始化locationManager
+    locationManager=[[CLLocationManager alloc]init];
+    
+    //设置代理
+    locationManager.delegate=self;
+    
+    //设置位置精确度
+    locationManager.desiredAccuracy=kCLLocationAccuracyBest;
+    
+    [locationManager requestWhenInUseAuthorization];
+    
+    //开始定位服务
+    [locationManager startUpdatingLocation];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
