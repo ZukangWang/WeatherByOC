@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>NSLocationUsageDescription</key>
-	<string>定位</string>
+	<string>我们需要使用你的地理位置</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>我们需要使用你的地理位置</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
