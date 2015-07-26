@@ -123,6 +123,8 @@
 //更新天气图标
 -(void)updateWeatherIcon:(int)condition withNightTime: (BOOL)nightTime
 {
+    //下面条件判断值参考http://bugs.openweathermap.org/projects/api/wiki/Weather_Condition_Codes
+    
     if(condition<300){
         if (nightTime) {
             self.imageWeather.image=[UIImage imageNamed:@"tstorm1_night"];
