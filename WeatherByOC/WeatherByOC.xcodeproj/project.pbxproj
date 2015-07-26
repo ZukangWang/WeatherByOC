@@ -32,6 +32,7 @@
 		4885C6D61B63A46100337FA2 /* tstorm1_night.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885C6C61B63A46100337FA2 /* tstorm1_night.png */; };
 		4885C6D71B63A46100337FA2 /* tstorm3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885C6C71B63A46100337FA2 /* tstorm3.png */; };
 		4885C6D91B63A51800337FA2 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4885C6D81B63A51800337FA2 /* background.jpg */; };
+		4885C6DF1B64DE9B00337FA2 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885C6DE1B64DE9B00337FA2 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		4885C6C61B63A46100337FA2 /* tstorm1_night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tstorm1_night.png; sourceTree = "<group>"; };
 		4885C6C71B63A46100337FA2 /* tstorm3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tstorm3.png; sourceTree = "<group>"; };
 		4885C6D81B63A51800337FA2 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		4885C6DE1B64DE9B00337FA2 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		A262F6D0CD50516B3321BDC9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3BEFA82F0BA66C9AD7B6B12 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +106,7 @@
 			children = (
 				4885C6901B63A27C00337FA2 /* WeatherByOC */,
 				4885C6AA1B63A27C00337FA2 /* WeatherByOCTests */,
+				4885C6DD1B64DE7D00337FA2 /* ScreenShots */,
 				4885C68F1B63A27C00337FA2 /* Products */,
 				BE51EC22F7D1726B0D71596B /* Pods */,
 				AEC796EEB23005227EAED5BF /* Frameworks */,
@@ -183,6 +186,14 @@
 				4885C6C71B63A46100337FA2 /* tstorm3.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		4885C6DD1B64DE7D00337FA2 /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				4885C6DE1B64DE9B00337FA2 /* 1.png */,
+			);
+			name = ScreenShots;
 			sourceTree = "<group>";
 		};
 		AEC796EEB23005227EAED5BF /* Frameworks */ = {
@@ -290,6 +301,7 @@
 				4885C6A21B63A27C00337FA2 /* LaunchScreen.xib in Resources */,
 				4885C6CE1B63A46100337FA2 /* light_rain.png in Resources */,
 				4885C6D51B63A46100337FA2 /* tstorm1.png in Resources */,
+				4885C6DF1B64DE9B00337FA2 /* 1.png in Resources */,
 				4885C6D71B63A46100337FA2 /* tstorm3.png in Resources */,
 				4885C6CD1B63A46100337FA2 /* fog_night.png in Resources */,
 				4885C6D11B63A46100337FA2 /* snow4.png in Resources */,
