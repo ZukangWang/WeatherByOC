@@ -1,2 +1,2 @@
-# WeatherByOC
-基于地理位置的天气预报小Demo
+# 基于地理位置的天气预报iOS APP
+
